@@ -99,6 +99,7 @@
 ### JSON Representations 
 
 ```json
+	{
 	NFT : {
 	   "name": "Shiny Tergy",
 	    "description": "Gates of Ethernity Genesis NFT by Aether Games Inc. An exclusive collection of 3000 GoE creatures. On top of being playable creatures within the upcoming game Gates of Ethernity, these NFT give you access to exclusive skins, consumables, and more within the Aether Games franchise.",
@@ -173,7 +174,7 @@
 	    "animation_url": "https://api.goe.gg/get/videos/GOLD_RARE_CHAOS_STALKER.mp4",
 	    "external_url": "https://goe.gg",
 	    "coe_image": "https://api.goe.gg/get/images/COE-GOLD_RARE_CHAOS_STALKER.png"
-	}
+	},
 	CARD : {
 		"ID": 241,
 		"card_name":"COE-Shiny Tergy",
@@ -310,33 +311,33 @@
 		        }
 	    	]
 		}
-	}
+	},
 	CMC : {
 		"cmc_code":"0xa314000000000000",
 		"reedemable":false
-	}
+	},
 	BOT_STATUS : {
 		"running":true,
 		"auto_sell":true,
 		"auto_buy":false
-	}
+	},
 	BOT_PARAMETERS : {
 		"max_increase_precentage":5,
 		"max_decrease_precentage":25
-	}
+	},
 	BOT_ADDRESSES : {
 		"token_address":"0x0",
 		"paired_address":"0x0",
 		"factory_address":"0x0",
 		"router_address":"0x0",
 		"pair_address":"0x0"
-	}
+	},
 	BOT_BALANCES : {
 		"token_balance":0,
 		"pair_balance":0,
 		"token_reserve":0,
 		"pair_reserve":0
-	}
+	},
 	DAO_PROPOSAL : {
 		"Title":"Create AEG DAO",
 		"ID":1,
@@ -346,5 +347,6 @@
 		"With":1,
 		"Against":0,
 		"Neutral":0
+	}
 	}
 ```
