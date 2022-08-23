@@ -1,5 +1,5 @@
 
-# Exposed
+# Server Exposed URLs
 
 All sub-headers starting with a **`/`** are exposed via *https://api.aethergames.io/*
 
