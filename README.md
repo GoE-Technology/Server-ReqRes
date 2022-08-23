@@ -1,97 +1,97 @@
 
 # Exposed
 
-	## /w3/languages
+## /w3/languages
 	headers={}
 	type=JSON
 	description = returns the list of languages supported by the server
 
-	## /w3/wallet/<lang>/nfts
+## /w3/wallet/<lang>/nfts
 	headers = { wallet-addr : ERC20 checksumed address }
 	type=JSON
 	description = returns a JSON array for all the NFTs owned by `wallet-addr` in any language using `lang` in the URL.
 
-	## /w3/wallet/<lang>/cardpacks
+## /w3/wallet/<lang>/cardpacks
 	headers = { wallet-addr : ERC20 checksumed address }
 	type=JSON
 	description = returns a JSON array for all the CardPacks owned from NFTs by `wallet-addr` in any language using `lang` in the URL.
 
-	## /w3/chains
+## /w3/chains
 	headers={}
 	type=JSON
 	description = returns a JSON array for all the chainIds supported
 
-	## /get/metadata/<nft_id>
+## /get/metadata/<nft_id>
 	headers={}
 	type=JSON
 	description = returns the NFT with `nft_id` equal to token id 
 
-	## /get/images/<image_name>
+## /get/images/<image_name>
 	headers={}
 	type=PNG
 	description = returns the image. used for monster images
 
-	## /get/videos/<video_name>
+## /get/videos/<video_name>
 	headers={}
 	type=MP4
 	description = returns the video. used for turnables and CGI
 
-	## /get/models/<model_name>
+## /get/models/<model_name>
 	headers={}
 	type=GLB
 	description = returns the 3D-Model. not yet implemented for AR or Gameplay
 
-	## /get/proposals/<proposal_number>
+## /get/proposals/<proposal_number>
 	headers={}
 	type=TEXT
 	description = returns the raw contents of the proposal. Implemented as the proposals for the DAO.
 
-	## /get/cardpacks/<cardpack_id>
+## /get/cardpacks/<cardpack_id>
 	headers={}
 	type=JSON
 	description = returns the JSON representation of any cardpack. Not yet implemented with `cardpack_id`
 
-	## /private/getCount
+## /private/getCount
 	headers={}
 	type=JSON
 	description = returns the current amount of NFTs that has been already minted
 
-	## /private/monster/ids/<monster_name>
+## /private/monster/ids/<monster_name>
 	headers={}
 	type=JSON
 	description = returns all the different NFTIDS for any monster specified for `monster_name`
 
-	## /hardFetch/eth
+## /hardFetch/eth
 	headers={}
 	type=number
 	description = returns the value of ethereum in USD at any given moment with a 10-second delay and to 2-decimal prescision
 
-	## /fake/token/balance
+## /fake/token/balance
 	headers = { wallet-addr : ERC20 checksumed address }
 	type=JSON
 	description = returns the current balance of `wallet-addr` using fake $AEG token
 
-	## /fake/cmc
+## /fake/cmc
 	headers = { aeg-cmc-code : bytes8 code starting with `0xa314` }
 	type=JSON
 	description = returns the success on correct calls to redeem VALID coinmarketcap code `aeg-cmc-code`
 
-	## /fake/bot/status
+## /fake/bot/status
 	headers={}
 	type=JSON
 	description = returns the current status of the bot
 
-	## /fake/bot/params
+## /fake/bot/params
 	headers={}
 	type=JSON
 	description = returns the current configurations for the bot
 
-	## /fake/bot/balances
+## /fake/bot/balances
 	headers={}
 	type=JSON
 	description = returns the current balances for the bot
 
-	## /fake/bot/addresses
+## /fake/bot/addresses
 	headers={}
 	type=JSON
 	description = returns the current addresses for the bot
