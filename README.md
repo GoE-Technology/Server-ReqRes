@@ -1,7 +1,7 @@
 
 # Exposed
 
-All sub-headers starting with a `**/**` are exposed via *https://api.aethergames.io/*
+All sub-headers starting with a **`/`** are exposed via *https://api.aethergames.io/*
 
 ## /w3/languages
 	headers={}
